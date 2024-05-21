@@ -41,6 +41,13 @@
       "eng": "keyboard",
       "jap": "キーボード",
       "isDone": false
+    },
+    {
+      "id": "210e",
+      "day": "1",
+      "eng": "phone",
+      "jap": "携帯",
+      "isDone": false
     }
   ]
 }

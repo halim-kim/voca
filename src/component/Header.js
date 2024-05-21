@@ -8,7 +8,7 @@ export default function Header() {
             <Link to="/">トイック英単語</Link>
         </h1>
         <div className="menu">
-            <a href="#x" className="link">単語追加</a>
+            <Link to="/create_word" className="link">単語追加</Link>
             <a href="#x" className="link">Day 追加</a>
         </div>
     </div>
