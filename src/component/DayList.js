@@ -1,31 +1,34 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import useFetch from '../hooks/useFetch';
 
 export default function DayList() {
-    const [days, setDays] = useState([]);
-    // const [count, setCount] = useState(0);
+    const days = useFetch('http://localhost:3001/days');
 
-    // function onClick() {
-    //     setCount(count + 1);
-    // }
+    // const [days, setDays] = useState([]);
+    // // const [count, setCount] = useState(0);
 
-    // function onClick2() {
-    //     setDays([
-    //         ...days,
-    //         { id: Math.random(), day: 1 },
-    //     ])
-    // }
+    // // function onClick() {
+    // //     setCount(count + 1);
+    // // }
 
-    useEffect(() => {
-        fetch('http://localhost:3001/days')
-        .then(res => {
-            return res.json();
-        })
-        .then(data => {
-            setDays(data);
-        });
-        
-    }, []); // count 값이 변경될 때만 실행, 빈배열이면 처음 한번만 실행
+    // // function onClick2() {
+    // //     setDays([
+    // //         ...days,
+    // //         { id: Math.random(), day: 1 },
+    // //     ])
+    // // }
+
+    // useEffect(() => {
+    //     fetch('http://localhost:3001/days')
+    //     .then(res => {
+    //         return res.json();
+    //     })
+    //     .then(data => {
+    //         setDays(data);
+    //     });
+
+    // }, []); // count 값이 변경될 때만 실행, 빈배열이면 처음 한번만 실행
     
 
   return (
