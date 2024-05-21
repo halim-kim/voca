@@ -5,11 +5,11 @@
       {"id": 3, "day": 3}
     ],
     "words": [
-      {"id": 1, "day": 1, "eng": "book", "jap": "本", "isDone": false},
+      {"id": 1, "day": 1, "eng": "book", "jap": "本", "isDone": true},
       {"id": 2, "day": 1, "eng": "apple", "jap": "りんご", "isDone": false},
       {"id": 3, "day": 2, "eng": "chair", "jap": "椅子", "isDone": false},
-      {"id": 4, "day": 2, "eng": "table", "jap": "テーブル", "isDone": true},
+      {"id": 4, "day": 2, "eng": "table", "jap": "テーブル", "isDone": false},
       {"id": 5, "day": 3, "eng": "computer", "jap": "コンピューター", "isDone": false},
-      {"id": 6, "day": 3, "eng": "keyboard", "jap": "キーボード", "isDone": true}
+      {"id": 6, "day": 3, "eng": "keyboard", "jap": "キーボード", "isDone": false}
     ]
   }
