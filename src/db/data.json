@@ -47,6 +47,13 @@
       "day": "1",
       "eng": "phone",
       "jap": "携帯",
+      "isDone": true
+    },
+    {
+      "id": "1eab",
+      "day": "2",
+      "eng": "jason",
+      "jap": "ジェーソン",
       "isDone": false
     }
   ]
