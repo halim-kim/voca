@@ -11,6 +11,10 @@
     {
       "id": "3",
       "day": 3
+    },
+    {
+      "id": "6433",
+      "day": 4
     }
   ],
   "words": [
@@ -19,7 +23,7 @@
       "day": 1,
       "eng": "book",
       "jap": "本",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "3",
@@ -47,13 +51,27 @@
       "day": "1",
       "eng": "phone",
       "jap": "携帯",
-      "isDone": true
+      "isDone": false
     },
     {
       "id": "1eab",
       "day": "2",
       "eng": "jason",
       "jap": "ジェーソン",
+      "isDone": false
+    },
+    {
+      "id": "8176",
+      "day": "1",
+      "eng": "ha",
+      "jap": "ha",
+      "isDone": false
+    },
+    {
+      "id": "35f5",
+      "day": "4",
+      "eng": "japan",
+      "jap": "日本",
       "isDone": false
     }
   ]

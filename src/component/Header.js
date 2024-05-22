@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header">
         <h1>
             {/* <a href="/">トイック英単語</a>     */}
-            <Link to="/">トイック英単語</Link>
+            <Link to="/">TOEIC英単語</Link>
         </h1>
         <div className="menu">
             <Link to="/create_word" className="link">単語追加</Link>

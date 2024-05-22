@@ -53,7 +53,7 @@ export default function CreateWord() {
                 <label>Jap</label>
                 <input type="text" placeholder="パソコン" ref={japRef} />
             </div>
-            <button type="submit">저장</button>
+            <button type="submit">保存</button>
         </form>
     );
 }
