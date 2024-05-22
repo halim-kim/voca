@@ -9,7 +9,7 @@ export default function Header() {
         </h1>
         <div className="menu">
             <Link to="/create_word" className="link">単語追加</Link>
-            <a href="#x" className="link">Day 追加</a>
+            <Link to="/create_day" className="link">Day 追加</Link>
         </div>
     </div>
   );
