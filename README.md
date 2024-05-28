@@ -2,6 +2,11 @@
 
 TOEIC英単語帳（React）
 -！！！（解決策をまだ考えているところですが、なぜかGitへのデプロイ最初のページがEmpty Pageとなります。BacktoHomeを押してください）
+現状こちらの課題、ローカルにクローン後以下の手順を踏まないとうまく起動しません。。
+1. npm install
+2. npm install -g json-server
+3. json-server --watch ./src/db/data.json --port 3001
+4. npm start
 
 ## ②課題内容（どんな作品か）
 
