@@ -2,96 +2,88 @@
   "days": [
     {
       "id": "1",
-      "day": 1
+      "day": 1,
+      "name": "HTML, CSS"
     },
     {
       "id": "2",
-      "day": 2
+      "day": 2,
+      "name": "JavaScript"
     },
     {
       "id": "3",
-      "day": 3
+      "day": 3,
+      "name": "Git"
     },
     {
       "id": "6433",
-      "day": 4
+      "day": 4,
+      "name": "JavaScript"
     },
     {
-      "id": "22ef",
+      "id": "2146",
       "day": 5,
-      "name": "HTML"
+      "name": "JavaScript"
     }
   ],
-  "words": [
-    {
-      "id": "1",
-      "day": 1,
-      "eng": "book",
-      "jap": "本",
-      "isDone": false
-    },
-    {
-      "id": "3",
-      "day": 2,
-      "eng": "chair",
-      "jap": "椅子",
-      "isDone": false
-    },
-    {
-      "id": "5",
-      "day": 3,
-      "eng": "computer",
-      "jap": "コンピューター",
-      "isDone": false
-    },
-    {
-      "id": "6",
-      "day": 3,
-      "eng": "keyboard",
-      "jap": "キーボード",
-      "isDone": false
-    },
-    {
-      "id": "210e",
-      "day": "1",
-      "eng": "phone",
-      "jap": "携帯",
-      "isDone": false
-    },
-    {
-      "id": "1eab",
-      "day": "2",
-      "eng": "jason",
-      "jap": "ジェーソン",
-      "isDone": true
-    },
-    {
-      "id": "8176",
-      "day": "1",
-      "eng": "ha",
-      "jap": "ha",
-      "isDone": false
-    },
-    {
-      "id": "35f5",
-      "day": "4",
-      "eng": "japan",
-      "jap": "日本",
-      "isDone": false
-    },
-    {
-      "id": "65d6",
-      "day": "1",
-      "eng": "a",
-      "jap": "a",
-      "isDone": false
-    },
-    {
-      "id": "c332",
-      "day": "",
-      "eng": "",
-      "jap": "",
-      "isDone": false
-    }
-  ]
+  
+    "words": [
+      {
+        "id": "1",
+        "day": 1,
+        "eng": "<h1>",
+        "jap": "タイトルを表示させるタグ",
+        "isDone": false
+      },
+      {
+        "id": "2",
+        "day": 1,
+        "eng": "<p>",
+        "jap": "段落を表示させるタグ",
+        "isDone": false
+      },
+      {
+        "id": "3",
+        "day": 2,
+        "eng": "const",
+        "jap": "定数を宣言するキーワード",
+        "isDone": false
+      },
+      {
+        "id": "4",
+        "day": 2,
+        "eng": "let",
+        "jap": "ブロックスコープの変数を宣言するキーワード",
+        "isDone": false
+      },
+      {
+        "id": "5",
+        "day": 3,
+        "eng": "function",
+        "jap": "関数を定義するキーワード",
+        "isDone": false
+      },
+      {
+        "id": "6",
+        "day": 3,
+        "eng": "=>",
+        "jap": "アロー関数を定義する構文",
+        "isDone": false
+      },
+      {
+        "id": "7",
+        "day": 4,
+        "eng": "if",
+        "jap": "条件分岐を行うキーワード",
+        "isDone": false
+      },
+      {
+        "id": "8",
+        "day": 4,
+        "eng": "for",
+        "jap": "ループを行うキーワード",
+        "isDone": false
+      }
+    ]
+  
 }

@@ -52,11 +52,11 @@ export default function CreateWord() {
                 </select>
             </div>
             <div className="input_area">
-                <label>Eng</label>
+                <label>Code</label>
                 <input type="text" placeholder="computer" ref={engRef} />
             </div>
             <div className="input_area">
-                <label>Jap</label>
+                <label>使い方</label>
                 <input type="text" placeholder="パソコン" ref={japRef} />
             </div>
             <button type="submit">保存</button>
