@@ -1,10 +1,11 @@
 import useFetch from "../hooks/useFetch";
-import React, { useRef } from 'react';
+import React, { useRef,useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 export default function CreateWord() {
     const days = useFetch('http://localhost:3001/days');
     const navigate = useNavigate();
+    const [isLoading, setIsLoading] = useState(false);
 
     const engRef = useRef(null);
     const japRef = useRef(null);
@@ -12,6 +13,10 @@ export default function CreateWord() {
 
     function onSubmit(e) {
         e.preventDefault();
+
+        if(!isLoading) return;
+        setIsLoading(true);
+    
 
         fetch('http://localhost:3001/words', {
             method: 'POST',
@@ -29,6 +34,7 @@ export default function CreateWord() {
             if (res.ok) {
                 alert("登録が完了しました");
                 navigate(`/day/${dayRef.current.value}`);
+                setIsLoading(false);
             }
         });
     }
